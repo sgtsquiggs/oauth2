@@ -11,9 +11,9 @@ import (
 	"net/http"
 
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-	"golang.org/x/oauth2/jwt"
+	"github.com/sgtsquiggs/oauth2"
+	"github.com/sgtsquiggs/oauth2/google"
+	"github.com/sgtsquiggs/oauth2/jwt"
 	"github.com/sgtsquiggs/appengine"
 	"github.com/sgtsquiggs/appengine/urlfetch"
 )
