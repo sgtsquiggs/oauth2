@@ -14,8 +14,8 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"golang.org/x/oauth2/jwt"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/urlfetch"
+	"github.com/sgtsquiggs/appengine"
+	"github.com/sgtsquiggs/appengine/urlfetch"
 )
 
 func ExampleDefaultClient() {

@@ -30,7 +30,7 @@ This means it's no longer possible to use the "Classic App Engine"
 `appengine.Context` type with the `oauth2` package. (You're using
 Classic App Engine if you import the package `"appengine"`.)
 
-To work around this, you may use the new `"google.golang.org/appengine"`
+To work around this, you may use the new `"github.com/sgtsquiggs/appengine"`
 package. This package has almost the same API as the `"appengine"` package,
 but it can be fetched with `go get` and used on "Managed VMs" and well as
 Classic App Engine.
@@ -47,8 +47,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	newappengine "google.golang.org/appengine"
-	newurlfetch "google.golang.org/appengine/urlfetch"
+	newappengine "github.com/sgtsquiggs/appengine"
+	newurlfetch "github.com/sgtsquiggs/appengine/urlfetch"
 
 	"appengine"
 )
